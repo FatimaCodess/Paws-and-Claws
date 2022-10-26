@@ -1,0 +1,163 @@
+/* //////////// */
+
+@media (max-width: 1018px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 815px) {
+  html {
+    font-size: 7px;
+  }
+  .heading-primary {
+    font-size: 4.2rem;
+  }
+}
+
+@media (max-width: 610px) {
+  html {
+    font-size: 5px;
+  }
+
+  .test-text {
+    width: 80%;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  .service-desc {
+    line-height: 2.8rem;
+  }
+}
+
+/* mobiles */
+@media (max-width: 433px) {
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+  }
+
+  /* ////////// */
+  .logo {
+    font-size: 4.3rem;
+  }
+
+  .logo-img {
+    width: 5rem;
+  }
+  nav li {
+    font-size: 4.2rem;
+  }
+  .heading-primary {
+    font-size: 8rem;
+  }
+
+  .hero-description {
+    font-size: 3.7rem;
+    line-height: 5rem;
+  }
+  .section-hero {
+    padding: 4rem 10rem 10rem 4rem;
+  }
+
+  .hero-img-box {
+    display: none;
+  }
+
+  /* services */
+
+  .service {
+    width: 50rem;
+  }
+
+  .service-title {
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+  }
+
+  .service-desc {
+    font-size: 3rem;
+
+    line-height: 3.7rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .services-container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* testimonial */
+  .test {
+    width: 60rem;
+    height: 15rem;
+  }
+  .test-2 img {
+    position: absolute;
+    top: -36%;
+    left: 93%;
+    transform: rotate(15.79deg);
+    z-index: -1;
+  }
+  .test-1 img,
+  .test-3 img {
+    position: absolute;
+    top: -34%;
+    left: -6%;
+    transform: rotate(-31.12deg);
+    z-index: -1;
+  }
+
+  .test > img {
+    width: 8rem;
+    height: 8rem;
+    position: static;
+    transform: rotate(0deg);
+    opacity: 100%;
+    border-radius: 50%;
+    z-index: 1009999;
+  }
+  .test-text {
+    width: 80%;
+    font-size: 3rem;
+    text-align: left;
+  }
+
+  .testimonial img {
+    width: 7.5rem;
+  }
+  /* sign up */
+  .sign-up .section-title {
+    z-index: 188;
+  }
+
+  .circle1 {
+    width: 50rem;
+    height: 50rem;
+    left: 77%;
+    top: -130px;
+    z-index: 11;
+  }
+  .circle2 {
+    width: 50rem;
+    height: 50rem;
+    top: 74%;
+    left: -130px;
+  }
+  input {
+    width: 60rem;
+    height: 6.4rem;
+  }
+
+  input::placeholder {
+    font-size: 2.6rem;
+  }
+  .submit {
+    font-size: 3rem;
+    width: 18rem;
+    text-align: center;
+    margin-top: 2.3rem;
+  }
+}
